@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: rgb(2, 0, 36);
+    color: white;
+    transition: all .3s ease-in;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.age-calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 134, 255, 1) 100%;
+    border-radius: 10px;
+    width: max-content;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgb(187, 181, 181);
+    margin: auto;
+    font-weight: 700;
+
+}
+
+
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+button:hover {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#result {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
